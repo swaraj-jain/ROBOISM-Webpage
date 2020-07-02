@@ -28,6 +28,9 @@
     width: 100%;
     transition: all 0.5s;
 }
+#navlogo{
+    height: 140px;
+}
 #landingimg1{
     padding-top: 15rem;
     width: 100%;
@@ -54,11 +57,14 @@
         text-align: center;
     }
     #landingheading{
-        padding-top: 45%;
+        padding-top: 30%;
         font-size: 4rem;
     }
     #landingimg1{
         padding-top: 5rem;
+    }
+    #navlogo{
+        height: 90px;
     }
     
 }
@@ -105,6 +111,12 @@ a:hover{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
  }
+
+@media(max-width:600px){
+    #abouthd{
+        font-size: 4rem;
+    }
+}
  .aboutcon{
     font-size: 2.5rem;
     font-weight: 400;
