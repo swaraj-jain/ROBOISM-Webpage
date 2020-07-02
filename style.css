@@ -2,6 +2,7 @@
     background: black;
     padding: 0px;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 .nc{
     font-size: 2.5rem;
