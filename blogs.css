@@ -6,14 +6,10 @@
   scroll-behavior: smooth;
   
 }
+
 .btn-primary{
   background: #89abe3ff;
 }
-.btn-primary:hover{
-  background: #89abe3ff;
-  filter: brightness(80%);
-}
-
 body {
   background-color: #eee;
   color: #111;
@@ -41,6 +37,8 @@ button {
 #projectpagemain .row .modal.modal-show {
   animation: fadeIn 0.1s ease-in-out forwards;
   padding-top: 10%;
+  
+
 }
 #projectpagemain .row .modal.modal-hide {
   animation: fadeOut 0.1s ease-in-out 0.1s forwards;
@@ -58,21 +56,22 @@ button {
   max-height: 70%;
   overflow: auto;
   font-family: 'Raleway', sans-serif;
-  font-size: 24px;
+  font-size: 2rem;
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  box-shadow: 1px 1px 2px #d3d3d3, 0 0 25px #d3d3d3, 0 0 5px #000;
 }
 @media(max-width:1100px){
   #projectpagemain .row .modal-content {
     width: 70%;
   }
   #projectpagemain .row .modal-content {
-    font-size: 20px;
+    font-size: 1.8rem;
   }
 }
 @media(max-width:900px){
   
   #projectpagemain .row .modal-content {
-    font-size: 18px;
+    font-size: 1.6rem;
   }
 }
 @media(max-width:700px){
@@ -80,7 +79,7 @@ button {
     padding-top: 26%;
   }
   #projectpagemain .row .modal-content {
-    font-size: 18px;
+    font-size: 1.4rem;
     width: 80%;
   }
   
@@ -103,7 +102,7 @@ button {
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 18pxrem;
+  font-size: 1.75rem;
   font-weight: bold;
   padding: 0 0.75rem;
   color: rgba(0,0,0,0.2);
@@ -113,7 +112,9 @@ button {
 #projectpagemain .row .modal-close:hover, .modal-close:focus {
   color: rgba(0,0,0,0.5);
 }
-
+#projectpagemain{
+  padding-top: 10%;
+}
 
 /* Animations */
 @keyframes fadeIn {
@@ -211,68 +212,17 @@ button {
 /*==========================================================*/
 
 #projectpagemain .row{
- margin-top: 18%;
+ margin-top: 15%;
  margin-bottom: 3%;
 }
-#projectpagemain .card-block {
-  padding: 1rem 2rem 2rem;
-}
 
-
-#projectpagemain  .card-block #protit{
-    text-align: center;
-    color: #d3d3d3;
-    font-weight: 600;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 0;
-
-}
-
-#projectpagemain .card-block #protiti{
-  
-  color: #d3d3d3;
-  font-weight: 400;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  list-style: none;
-
-}
-#projectpagemain #symper1{
-  margin-left: 2rem;
-  margin-right: 1.4rem;
-}
-
-#projectpagemain #progit{
-  font-size: 35px;
-   color: #d3d3d3;
-    margin-left: 47%;
-}
-#projectpagemain #progit:hover{
-  filter: brightness(70%);
-}
-#projectpagemain .col-md-5{
-  background:rgba(0, 0, 0, 0.7);
-   margin-top: 2rem; 
-   padding-top: 1.3rem;
-}
-#projectpagemain .col-md-5:hover{
-  filter: contrast(90%);
-  cursor: pointer;
-  box-shadow: 1px 3px 6px black, 0 0 25px white, 0 0 5px grey;
-}
-@media(max-width:700px){
-  #projectpagemain .col-md-5{
-  margin-left: 4%;
-  margin-right: 4%;
-  }
-}
 
 /*================================================================*/
 
 .nc{
-  font-size: 24px;
+  font-size:25px;
 }
+
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
   border: none;
 }
@@ -439,9 +389,84 @@ button {
 }
 #copyr{
   text-align: center;
-  font-size: 2rem;
+  font-size: 24px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   padding-top: 10px;
+
+}
+
+/*=====================================================*/
+
+#smaincon{
+  font-size: 24px;
+  color: #d3d3d3;
+}
+#smainconaut{
+  font-size: 24px;
+  color: #d3d3d3;
+}
+#smainconsml{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+.jumbotron{
+  background: rgba(0,0,0,0.8);
+}
+#smore{
+  font-size: 24px;
+}
+#smore:hover{
+  cursor: pointer;
+}
+#projectpagemain .row{
+  margin-top:0;
+}
+#projectpagemain .jumbotron{
+  box-shadow: 1px 1px 2px #d3d3d3, 0 0 25px #d3d3d3, 0 0 5px #000;
+}
+#projectpagemain .jumbotron:hover{
+  box-shadow: 1px 1px 2px #000, 0 0 12px #fff, 0 0 5px #d3d3d3;
+}
+#projectpagemain{
+  padding-top: 12%;
+
+}
+#mhb{
+  color: #d3d3d3;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px #d3d3d3, 0 0 25px #d3d3d3, 0 0 5px #000;
+}
+
+@media(max-width:1000px){
+  #projectpagemain{
+    padding-top: 20%;
+  }
+}
+
+@media(max-width:800px)
+{
+  #projectpagemain .row{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #smaincon{
+    font-size: 20px;
+    color: #d3d3d3;
+  }
+  #smainconaut{
+    font-size: 20px;
+    color: #d3d3d3;
+  }
+  #smainconsml{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #smore{
+    font-size: 20px;
+  }
 
 }
