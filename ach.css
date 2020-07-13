@@ -26,6 +26,7 @@
     font-size: 2.2rem;
     margin-bottom: 0rem;
     margin-top: 1.7rem;
+    font-family: 'Work Sans', sans-serif;
 }
 #achi .container .cardmyl img{
     height: 220px;
@@ -42,12 +43,13 @@
     }
 }
  #topone{
-     margin-top: 15%;
+     margin-top: 13%;
  }
+ 
  
 @media(max-width:700px){
   #topone{
-    margin-top: 18%;
+    margin-top: 16%;
   }
   #achi .container .cardmyl h3{
     font-size: 1.9rem;
@@ -102,51 +104,7 @@
     width: 100%;
     transition: all 0.5s;
   }
-  #navlogo{
-    height: 130px;
-    padding-top: 0px;
-  }
-  
-  
-  @media(max-width:1170px){
-    #navlogo{
-        height: 110px;
-    }
-  }
-  
-  @media(max-width:1100px){
-    #navlogo{
-        height: 95px;
-    }
-    
-  }
-  @media(max-width:1000px){
-    #navlogo{
-        height: 80px;
-    }
-   
-  }
-  @media(max-width:900px){
-    #navlogo{
-        height: 80px;
-    }
-   
-  }
-  @media(max-width:600px){
-    .nc{
-        font-size: 18px;
-        color: white;
-        padding: 0px 12px;
-    }
-    .navbar-nav>li>a{
-        padding-top: 1rem;
-    }
-    
-    #navlogo{
-        height: 90px;
-    }
-    
-  }
+ 
   
   /*====================================================================*/
 
@@ -271,15 +229,9 @@
   }
   
   
-  @media(max-width:1170px){
-    #navlogo{
-        height: 110px;
-    }
-  }
-  
   @media(max-width:1100px){
     #navlogo{
-        height: 95px;
+        height: 88px;
     }
     
   }
@@ -289,16 +241,16 @@
     }
    
   }
-  @media(max-width:900px){
+  @media(max-width:970px){
     #navlogo{
-        height: 80px;
+        height: 90px;
     }
    
   }
   @media(max-width:600px){
     
     #navlogo{
-        height: 90px;
+        height: 80px;
     }
     
   }
@@ -306,10 +258,10 @@
 
 
   header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    padding: 0 50px;
+    padding: 0 44px;
     background: rgba(0,0,0,0.7);
     box-sizing: border-box;
     width: 100%;
@@ -341,6 +293,7 @@
     
     list-style: none;
     position: relative;
+    font-family: 'Montserrat', sans-serif;
   }
   
   header nav ul li.sub-menu:before {
@@ -387,6 +340,7 @@
     color: #fff;
     text-decoration: none;
     display: block;
+    padding-top: 2%;
 
   }
   
@@ -404,6 +358,7 @@
     font-size: 24px;
     cursor: pointer;
     display: none;
+    z-index: 6;
   }
   
   @media (max-width: 991px)  {
@@ -415,6 +370,8 @@
     .menu-toggle {
       
       display: block;
+      position: relative;
+      z-index: 6;
     }
     header nav ul li.sub-menu:before{
       margin-right: 20px;
@@ -433,8 +390,14 @@
     
     header nav.active {
       
-      left: 0;
+      left:0;
       background: rgba(0,0,0,0.9);
+      min-height: 100vh;
+      position: fixed;
+      z-index: 5;
+      top:0;
+      padding-top: 20%;
+      
     } 
     
     header nav ul {
@@ -464,5 +427,6 @@
 
   #part{
     font-weight: 300;
+
   }
   /*====================================================================*/

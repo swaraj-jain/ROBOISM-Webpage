@@ -1459,7 +1459,7 @@ a{
       font-size: 24px;
       cursor: pointer;
       display: none;
-      z-index: 2001;
+      z-index: 25;
     }
     
     @media (max-width: 991px)  {
@@ -1471,11 +1471,11 @@ a{
       .menu-toggle {
         
         display: block;
-        z-index: 2001;
+        z-index: 26;
         position: relative;
       }
       header nav ul li.sub-menu:before{
-        margin-right: 20px;
+        margin-right: 25px;
       }
       
       header nav {
@@ -1498,7 +1498,7 @@ a{
         position: fixed;
         top:0;
         padding-top: 20%;
-        z-index: 2000;
+        z-index: 25;
       } 
       
       
