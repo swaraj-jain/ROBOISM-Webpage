@@ -9,6 +9,41 @@
   scroll-behavior: smooth;
   
 }
+
+#topone{
+  margin-top: 13%;
+}
+
+
+@media(max-width:700px){
+#topone{
+ margin-top: 16%;
+}
+#achi .container .cardmyl h3{
+ font-size: 1.9rem;
+ margin-top: 1.5rem;
+}
+}
+@media(max-width:600px){
+#topone{
+ margin-top: 25%;
+}
+#achi .container .cardmyl h3{
+ font-size: 1.7rem;
+ margin-top: 1.3rem;
+}
+}
+@media(max-width:420px){
+#topone{
+ margin-top: 30%;
+}
+}
+@media(max-width:350px){
+#topone{
+ margin-top: 35%;
+}
+}
+
 .btn-primary{
   background: #89abe3ff;
 }
@@ -56,12 +91,13 @@ button {
   color: #d3d3d3;
   margin: 2rem;
   padding: 2rem;
+  padding-right: 15px;
   border-radius: 0.25rem;
   width: 900px;
   max-height: 70%;
   overflow: auto;
   font-family: 'Raleway', sans-serif;
-  font-size: 24px;
+  font-size: 21px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
 @media(max-width:1100px){
@@ -214,7 +250,7 @@ button {
 /*==========================================================*/
 
 #projectpagemain .row{
- margin-top: 18%;
+ 
  margin-bottom: 3%;
 }
 #projectpagemain .card-block {
