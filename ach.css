@@ -9,6 +9,9 @@
 * ::after{
     box-sizing: border-box;
 }
+.fixback{
+  overflow-y:hidden;
+}
 #achi .container .cardmyl img{
     width: 100%;
 }
@@ -136,6 +139,9 @@
   #sym ul li {
     list-style: none;
   }
+  .fdis{
+    display: none;
+  }
   
   #sym ul li a {
     width: 80px;
@@ -226,26 +232,7 @@
 
   #navlogo{
     height: 100px;
-  }
-  
-  
-  @media(max-width:1100px){
-    #navlogo{
-        height: 88px;
-    }
-    
-  }
-  @media(max-width:1000px){
-    #navlogo{
-        height: 80px;
-    }
-   
-  }
-  @media(max-width:970px){
-    #navlogo{
-        height: 90px;
-    }
-   
+    padding-left: 20px;
   }
   @media(max-width:600px){
     
@@ -254,15 +241,21 @@
     }
     
   }
-
+  @media(max-width:400px){
+    
+    #navlogo{
+        height: 77px;
+    }
+    
+  }
 
 
   header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding: 0 44px;
-    background: rgba(0,0,0,0.7);
+    background: transparent;
     box-sizing: border-box;
     width: 100%;
     padding-top: 8px;
@@ -346,21 +339,22 @@
   header nav ul li a:hover,
   header nav ul li a.active {
     
-    color: #fff;
-    background: #2196f3
+    letter-spacing: 0.8rem;
+    color: #3b5999;
   }
   
   .menu-toggle {
     color: #fff;
     float: right;
     line-height: 50px;
-    font-size: 24px;
+    font-size: 26px;
     cursor: pointer;
     display: none;
     z-index: 6;
+
   }
   
-  @media (max-width: 991px)  {
+  @media (max-width:3000px)  {
     
     header {
       padding: 0 20px;
@@ -395,24 +389,35 @@
       position: fixed;
       z-index: 5;
       top:0;
-      padding-top: 20%;
+      padding-top: 120px
+      
       
     } 
+    @media(max-width:800px)
+    {
+      header nav.active {
+        padding-top: 90px
+      }
+    }
     
     header nav ul {
       display: block;
-      text-align: center;    
+      text-align: center; 
+      margin: auto;   
     }
     
     header nav ul li a {
       
       border-bottom: 1px solid rgba(0,0,0,0.2);
+      font-size: 30px;
+      margin: auto;  
     }
     
     header nav ul li.active ul {
       
         position: relative;
         background: rgba(0,0,0,0.7);
+        margin: auto;  
     }
     
     header nav ul li ul li {
@@ -421,11 +426,17 @@
     }
   }
   
-  
+  .fixback{
+    overflow-y:hidden;
+  }
 
 
   #part{
     font-weight: 300;
 
+  }
+
+  .fdis{
+    display: none;
   }
   /*====================================================================*/
