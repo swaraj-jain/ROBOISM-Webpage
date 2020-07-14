@@ -274,211 +274,222 @@
    /*========================================================*/
 
 
- a,a:hover,a:visited,a:active{
-  text-decoration: none;
-  color: inherit;
-
-}
-
- 
-
-  #navlogo{
-    height: 100px;
-  }
-  
-  
-  @media(max-width:1170px){
-    #navlogo{
-        height: 110px;
-    }
-  }
-  
-  @media(max-width:1100px){
-    #navlogo{
-        height: 95px;
-    }
-    
-  }
-  @media(max-width:1000px){
-    #navlogo{
-        height: 80px;
-    }
-   
-  }
-  @media(max-width:900px){
-    #navlogo{
-        height: 80px;
-    }
-   
-  }
-  @media(max-width:600px){
-    
-    #navlogo{
-        height: 90px;
-    }
-    
-  }
-
-
-
-  header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0 50px;
-    background: rgba(0,0,0,0.7);
-    box-sizing: border-box;
-    width: 100%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-  
-  header .logo {
-    color: #fff;
-    height: 50px;
-    line-height: 50px;
-    font-size: 24px;
-    float: left;
-    font-weight: bold;
-  }
-  
-  header nav {
-    float: right;
-    
-  }
-  
-  header nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  header nav ul li {
-    
-    list-style: none;
-    position: relative;
-  }
-  
-  header nav ul li.sub-menu:before {
-    
-    content: '\f0d7';
-    font-family: fontAwesome;
-    position: absolute;
-    line-height: 50px;
-    color: #fff;
-    right: 5px;
-    font-size: 18px;
-    cursor: pointer;
-
-  }
-  
-  header nav ul li.active.sub-menu:before {
-      content: '\f0d8';
-  }
-  
-  header nav ul li ul {
-    
-    position: absolute;
-    left: 0;
-    background: rgba(0,0,0,0.7);
-    display: none;
-  }
-  
-  header nav ul li.active ul {
-    
-    display: block;
-  }
-  header nav ul li ul li {
-    
-    display: block;
-    width: 200px;
-  }
-  
-  header nav ul li a {
-    
-    height: 50px;
-    font-size: 20px;
-    line-height: 50px;
-    padding: 0 20px;
-    color: #fff;
+   a,a:hover,a:visited,a:active{
     text-decoration: none;
-    display: block;
-
+    color: inherit;
+  
   }
   
-  header nav ul li a:hover,
-  header nav ul li a.active {
-    
-    color: #fff;
-    background: #2196f3
-  }
+   
   
-  .menu-toggle {
-    color: #fff;
-    float: right;
-    line-height: 50px;
-    font-size: 24px;
-    cursor: pointer;
-    display: none;
-  }
-  
-  @media (max-width: 991px)  {
-    
-    header {
-      padding: 0 20px;
+    #navlogo{
+      height: 100px;
+      padding-left: 20px;
     }
-    
-    .menu-toggle {
+    @media(max-width:600px){
       
-      display: block;
+      #navlogo{
+          height: 80px;
+      }
+      
     }
-    header nav ul li.sub-menu:before{
-      margin-right: 20px;
+    @media(max-width:400px){
+      
+      #navlogo{
+          height: 77px;
+      }
+      
+    }
+  
+  
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 0 44px;
+      background: transparent;
+      box-sizing: border-box;
+      width: 100%;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    
+    header .logo {
+      color: #fff;
+      height: 50px;
+      line-height: 50px;
+      font-size: 24px;
+      float: left;
+      font-weight: bold;
     }
     
     header nav {
+      float: right;
       
-      position: absolute;
-      width: 100%;
-      height: calc(100vh - 50px);
-      background: #333;
-      top: 50px;
-      left: -100%;
-      transition: 0.5s;  
     }
-    
-    header nav.active {
-      
-      left: 0;
-      background: rgba(0,0,0,0.9);
-    } 
     
     header nav ul {
-      display: block;
-      text-align: center;    
+      margin: 0;
+      padding: 0;
+      display: flex;
     }
     
-    header nav ul li a {
+    header nav ul li {
       
-      border-bottom: 1px solid rgba(0,0,0,0.2);
+      list-style: none;
+      position: relative;
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+    }
+    
+    header nav ul li.sub-menu:before {
+      
+      content: '\f0d7';
+      font-family: fontAwesome;
+      position: absolute;
+      line-height: 50px;
+      color: #fff;
+      right: 5px;
+      font-size: 18px;
+      cursor: pointer;
+  
+    }
+    
+    header nav ul li.active.sub-menu:before {
+        content: '\f0d8';
+    }
+    
+    header nav ul li ul {
+      
+      position: absolute;
+      left: 0;
+      background: rgba(0,0,0,0.7);
+      display: none;
     }
     
     header nav ul li.active ul {
       
-        position: relative;
-        background: rgba(0,0,0,0.7);
+      display: block;
     }
-    
     header nav ul li ul li {
       
-      width: 100%;
+      display: block;
+      width: 200px;
     }
-  }
+    
+    header nav ul li a {
+      
+      height: 50px;
+      font-size: 20px;
+      line-height: 50px;
+      padding: 0 20px;
+      color: #fff;
+      text-decoration: none;
+      display: block;
+  
+    }
+    
+    header nav ul li a:hover,
+    header nav ul li a.active {
+      
+      letter-spacing: 0.8rem;
+      color: #3b5999;
+    }
+    
+    .menu-toggle {
+      color: #fff;
+      float: right;
+      line-height: 50px;
+      font-size: 26px;
+      cursor: pointer;
+      display: none;
+      z-index: 6;
+  
+    }
+    
+    @media (max-width:3000px)  {
+      
+      header {
+        padding: 0 20px;
+      }
+      
+      .menu-toggle {
+        
+        display: block;
+        position: relative;
+        z-index: 6;
+      }
+      header nav ul li.sub-menu:before{
+        margin-right: 20px;
+      }
+      
+      header nav {
+        
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #333;
+        top: 50px;
+        left: -100%;
+        transition: 0.5s;  
+      }
+      
+      header nav.active {
+        
+        left:0;
+        background: rgba(0,0,0,0.9);
+        min-height: 100vh;
+        position: fixed;
+        z-index: 5;
+        top:0;
+        padding-top: 120px
+        
+        
+      } 
+      @media(max-width:800px)
+      {
+        header nav.active {
+          padding-top: 90px
+        }
+      }
+      
+      header nav ul {
+        display: block;
+        text-align: center; 
+        margin: auto;   
+      }
+      
+      header nav ul li a {
+        
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        font-size: 30px;
+        margin: auto;  
+      }
+      
+      header nav ul li.active ul {
+        
+          position: relative;
+          background: rgba(0,0,0,0.7);
+          margin: auto;  
+      }
+      
+      header nav ul li ul li {
+        
+        width: 100%;
+      }
+    }
+    
+    .fixback{
+      overflow-y:hidden;
+    }
   
   
+    #part{
+      font-weight: 300;
+  
+    }
 
-
-  #part{
-    font-weight: 300;
-  }
-  /*====================================================================*/
+    .fdis{
+      display: none;
+    }
+    /*====================================================================*/

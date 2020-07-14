@@ -258,7 +258,7 @@
 
 
   header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     padding: 0 44px;
@@ -340,7 +340,6 @@
     color: #fff;
     text-decoration: none;
     display: block;
-    padding-top: 2%;
 
   }
   
