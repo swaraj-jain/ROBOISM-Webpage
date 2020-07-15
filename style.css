@@ -64,23 +64,39 @@ body{
         font-size: 4.5rem;
         padding-left: 12%;
     }
+    
 }
 @media(max-width:1000px){
     #navlogo{
         height: 80px;
     }
     #landingheading{
-        padding-top: 30%;
+        padding-top: 14%;
         font-size: 4.5rem;
         padding-left: 12%;
     }
+   
 }
+@media(max-width:960px){
+    #landingimg1{
+        padding-top: 2rem;
+    }
+}
+
 @media(max-width:900px){
     #navlogo{
         height: 80px;
     }
     #landingheading{
-        padding-top: 30%;
+        padding-top: 15%;
+        font-size: 4.5rem;
+        padding-left: 12%;
+    }
+    
+}
+@media(max-width:700px){
+    #landingheading{
+        padding-top: 17%;
         font-size: 4.5rem;
         padding-left: 12%;
     }
@@ -98,16 +114,22 @@ body{
         text-align: center;
     }
     #landingheading{
-        padding-top: 30%;
+        padding-top: 25%;
         font-size: 4rem;
     }
     #landingimg1{
-        padding-top: 5rem;
+        padding-top: 2rem;
     }
     #navlogo{
         height: 90px;
     }
     
+}
+@media(max-width:600px){
+    #landingheading{
+        padding-top: 30%;
+        font-size: 4rem;
+    }
 }
 .topl{
     font-size: 6rem;
@@ -173,10 +195,12 @@ a:hover{
     transform: scale3d(1, 1, 1);
     height: 100%;
     width: 100%;
+    box-shadow: 1px 1px 2px black, 0 0 15px #d3d3d3, 0 0 5px #1f1f1f;
  }
  #aboutimg:hover{
     -webkit-transform: scale3d(1.1, 1.1, 1.1);
   transform: scale3d(1.1, 1.1, 1.1);
+  box-shadow: 1px 1px 2px black, 0 0 20px #d3d3d3, 0 0 5px #1f1f1f;
  }
  .thumbnail{
      border: 0.8px solid gray;
@@ -1071,7 +1095,7 @@ a{
     margin: 5% auto;
     transform-style: preserve-3d;
     
-    transition: transform 1.0s ease-in-out;
+    transition: transform 0.7s ease-in-out;
 
 }
 #codi #sym1 div{
