@@ -1274,12 +1274,12 @@ a{
     padding-bottom: 0.5rem;
 }
 #membersp1 .back #textb{
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: 'Montserrat', sans-serif;
     
 }
 #membersp1 #sym1 .slo{
-    font-size: 5rem;
+    font-size: 4.3rem;
     font-family: 'Montserrat', sans-serif;
     padding-left: 3rem;
     margin-top: 0rem;
@@ -1289,7 +1289,7 @@ a{
     filter: brightness(80%);
 }
 #membersp1 #sym1 .back h2{
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
@@ -1305,7 +1305,7 @@ a{
     
     margin-bottom: 0;
     margin-top: 8px;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -1555,3 +1555,37 @@ a{
       display: none;
     }
     /*====================================================================*/
+
+    #topone{
+        margin-top: 10%;
+    }
+    
+   @media(max-width:1000px){
+    #topone{
+      margin-top: 18%;
+    }
+    
+  }
+    
+   @media(max-width:700px){
+     #topone{
+       margin-top: 16%;
+     }
+     
+   }
+   @media(max-width:600px){
+     #topone{
+       margin-top: 25%;
+     }
+     
+   }
+   @media(max-width:420px){
+     #topone{
+       margin-top: 30%;
+   }
+   }
+   @media(max-width:350px){
+     #topone{
+       margin-top: 35%;
+   }
+   }
