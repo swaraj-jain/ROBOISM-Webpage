@@ -113,7 +113,7 @@ button {
   color: rgba(0,0,0,0.5);
 }
 #projectpagemain{
-  padding-top: 10%;
+  padding-top: 0%;
 }
 
 /* Animations */
@@ -429,7 +429,7 @@ button {
   box-shadow: 1px 1px 2px #000, 0 0 12px #fff, 0 0 5px #d3d3d3;
 }
 #projectpagemain{
-  padding-top: 12%;
+  padding-top: 0%;
 
 }
 #mhb{
@@ -443,7 +443,7 @@ button {
 
 @media(max-width:1000px){
   #projectpagemain{
-    padding-top: 20%;
+    padding-top: 0%;
   }
 }
 
@@ -703,4 +703,38 @@ button {
     .fdis{
       display: none;
     }
+
+
+    .menu-toggle:hover .fa-bars:nth-child(odd){
+      color: white;
+      text-shadow: 1px 2px 3px #0f0f0f, 1px 2px 20px #d3d3d3 ,1px 2px 3px #0f0f0f;
+      
+    }
     /*====================================================================*/
+    #topone{
+      margin-top: 13%;
+    }
+    
+    
+    @media(max-width:700px){
+    #topone{
+     margin-top: 16%;
+    }
+    
+    }
+    @media(max-width:600px){
+    #topone{
+     margin-top: 25%;
+    }
+    
+    }
+    @media(max-width:420px){
+    #topone{
+     margin-top: 30%;
+    }
+    }
+    @media(max-width:350px){
+    #topone{
+     margin-top: 35%;
+    }
+    }

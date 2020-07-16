@@ -9,16 +9,21 @@
 }
 
 #firstbox{
-    padding-top: 15%;
+    padding-top: 11%;
 }
 @media(max-width:900px){
   #firstbox{
-    padding-top: 20%;
+    padding-top: 16%;
   }
 }
 @media(max-width:700px){
   #firstbox{
-    padding-top: 28%;
+    padding-top: 21%;
+  }
+}
+@media(max-width:550px){
+  #firstbox{
+    padding-top: 26%;
   }
 }
 
@@ -491,5 +496,10 @@
 
     .fdis{
       display: none;
+    }
+    .menu-toggle:hover .fa-bars:nth-child(odd){
+      color: white;
+      text-shadow: 1px 2px 3px #0f0f0f, 1px 2px 20px #d3d3d3 ,1px 2px 3px #0f0f0f;
+      
     }
     /*====================================================================*/

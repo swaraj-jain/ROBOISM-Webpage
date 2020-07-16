@@ -707,4 +707,10 @@ button {
   .fdis{
     display: none;
   }
+
+  .menu-toggle:hover .fa-bars:nth-child(odd){
+    color: white;
+    text-shadow: 1px 2px 3px #0f0f0f, 1px 2px 20px #d3d3d3 ,1px 2px 3px #0f0f0f;
+    
+  }
   /*====================================================================*/
