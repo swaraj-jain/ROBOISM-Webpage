@@ -1,7 +1,7 @@
 alumni_list = [
   {
     "Timestamp": "7/4/2020 19:24:52",
-    "Year": "Alumini",
+    "Year": "-2019",
     "branch": "Electronics & Communication Engg",
     "image-link": "./img/members/A Sai Ruthvik.jpg",
     "linkedin": "https://www.linkedin.com/in/sairuthvik",
@@ -10,7 +10,7 @@ alumni_list = [
   },
   {
     "Timestamp": "7/5/2020 8:31:57",
-    "Year": "Alumini",
+    "Year": "-2020",
     "branch": "Electronics & Communication Engg",
     "github": "https://github.com/Mittaladitech",
     "image-link": "./img/members/Aditya Mittal.jpg",
@@ -20,7 +20,7 @@ alumni_list = [
   },
   {
     "Timestamp": "7/4/2020 21:29:11",
-    "Year": "Alumini",
+    "Year": "-2020",
     "branch": "Electronics & Communication Engg",
     "image-link": "./img/members/Deepak Agrawal.jpg",
     "linkedin": "https://www.linkedin.com/in/deepak-agrawal-810853177",
@@ -29,7 +29,7 @@ alumni_list = [
   },
   {
     "Timestamp": "7/4/2020 20:39:32",
-    "Year": "Alumini",
+    "Year": "-2020",
     "branch": "Electronics & Instrumentation Engg",
     "github": "https://github.com/deepak4669",
     "image-link": "./img/members/Deepak Goyal.jpg",
@@ -39,7 +39,7 @@ alumni_list = [
   },
   {
     "Timestamp": "7/4/2020 19:56:19",
-    "Year": "Alumini",
+    "Year": "-2020",
     "branch": "Electrical Engg",
     "image-link": "./img/members/Deepak Jain.jpg",
     "linkedin": "https://www.linkedin.com/in/deepak-jain-1a6853177",
@@ -48,7 +48,7 @@ alumni_list = [
   },
   {
     "Timestamp": "7/5/2020 13:21:05",
-    "Year": "Alumini",
+    "Year": "-2020",
     "branch": "Electronics & Communication Engg",
     "image-link": "./img/members/Hitesh Kumar.jpg",
     "mail": "hkhitesh25@gmail.com",
@@ -56,7 +56,7 @@ alumni_list = [
   },
   {
     "Timestamp": "7/4/2020 19:45:19",
-    "Year": "Alumini",
+    "Year": "-2020",
     "branch": "Electronics & Communication Engg",
     "github": "https://github.com/gupta-mayank417",
     "image-link": "./img/members/Mayank Gupta.jpg",
@@ -66,7 +66,7 @@ alumni_list = [
   },
   {
     "Timestamp": "7/5/2020 12:15:48",
-    "Year": "Alumini",
+    "Year": "-2020",
     "branch": "Mechanical Engg",
     "image-link": "./img/members/Mayank Mathur.jpg",
     "linkedin": "https://www.linkedin.com/in/mayank-mathur-679621148",
@@ -75,7 +75,7 @@ alumni_list = [
   },
   {
     "Timestamp": "7/5/2020 12:20:52",
-    "Year": "Alumini",
+    "Year": "-2020",
     "branch": "Electronics & Communication Engg",
     "image-link": "./img/members/Mudassar Raza.jpg",
     "mail": "mudassar.raza1312@gmail.com",
@@ -83,7 +83,7 @@ alumni_list = [
   },
   {
     "Timestamp": "7/5/2020 0:15:31",
-    "Year": "Alumini",
+    "Year": "-2019",
     "branch": "Electronics & Instrumentation Engg",
     "github": "https://github.com/matiyau",
     "image-link": "./img/members/Nishad Mandlik.jpg",
@@ -92,8 +92,18 @@ alumni_list = [
     "name": "Nishad Mandlik"
   },
   {
+    "Timestamp": "7/5/2020 0:15:31",
+    "Year": "-2019",
+    "branch": "Electronics & Instrumentation Engg",
+    "github": "https://github.com/Neelesh1121",
+    "image-link": "./img/members/Neelesh Yadav.jpg",
+    "linkedin": "https://www.linkedin.com/in/neelesh932/",
+    "mail": "neelesh932@gmail.com",
+    "name": "Neelesh Yadav"
+  },
+  {
     "Timestamp": "7/5/2020 13:53:39",
-    "Year": "Alumini",
+    "Year": "-2020",
     "branch": "Electronics & Communication Engg",
     "github": "https://github.com/UmangLilha/",
     "image-link": "./img/members/umang lilha.jpg",

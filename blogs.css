@@ -414,7 +414,8 @@ button {
   background: rgba(0,0,0,0.8);
 }
 #smore{
-  font-size: 24px;
+  font-size: 19px;
+  color: #436eee;
 }
 #smore:hover{
   cursor: pointer;

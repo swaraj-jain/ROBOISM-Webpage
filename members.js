@@ -306,7 +306,7 @@ pre_final_list = [
       "image-link": "./img/members/Intipalli Vinay Venkata Narasimha Swamy.jpg",
       "linkedin": "https://www.linkedin.com/in/intipalli-vinay-venkata-narasimha-swamy-48846119a",
       "mail": "vinayintipalli@gmail.com",
-      "name": "Intipalli Vinay Venkata Narasimha Swamy"
+      "name": "Intipalli Vinay"
     },
     {
       "Timestamp": "7/5/2020 9:09:40",
@@ -329,14 +329,14 @@ pre_final_list = [
       "name": "Jayant Anand "
     },
     {
-      "Timestamp": "7/4/2020 19:29:10",
+      "Timestamp": "05/07/2020 15:14:58",
       "Year": "Pre-Final",
-      "branch": "Electrical Engg",
+      "branch": "Electronics & Communication Engg",
       "github": "  https://github.com/kjyothiswaroop",
-      "image-link": "./img/members/Kasina Jyothi Swaroop.jpg",
-      "linkedin": " https://www.linkedin.com/in/kasina-jyothi-swaroop-b62259168",
-      "mail": "kasina.18je0405@ee.iitism.ac.in",
-      "name": "K Jyothi Swaroop"
+      "image-link": "./img/members/Karan Kumar Burnwal.jpg",
+      "linkedin": " https://www.linkedin.com/in/karan-burnwal-92a1a7175/",
+      "mail": "calkaran@gmail.com",
+      "name": "Karan Ku Burnwal"
     },
     {
       "Timestamp": "7/4/2020 23:11:00",
@@ -355,6 +355,16 @@ pre_final_list = [
       "linkedin": "https://www.linkedin.com/in/kaushik-shukla-aa71a9175",
       "mail": "mail.kaushik313@gmail.com",
       "name": "Kaushik Shukla"
+    },
+    {
+      "Timestamp": "7/4/2020 19:29:10",
+      "Year": "Pre-Final",
+      "branch": "Electrical Engg",
+      "github": "  https://github.com/kjyothiswaroop",
+      "image-link": "./img/members/Kasina Jyothi Swaroop.jpg",
+      "linkedin": " https://www.linkedin.com/in/kasina-jyothi-swaroop-b62259168",
+      "mail": "kasina.18je0405@ee.iitism.ac.in",
+      "name": "K Jyothi Swaroop"
     },
     {
       "Timestamp": "7/4/2020 20:23:21",
@@ -403,7 +413,7 @@ pre_final_list = [
       "image-link": "./img/members/Sayantani Bhattacharya.jpg",
       "linkedin": "https://www.linkedin.com/in/sayantani-bhattacharya-19a419175/",
       "mail": "roopsha2k@gmail.com",
-      "name": "Sayantani Bhattacharya"
+      "name": "Sayantani"
     },
     {
       "Timestamp": "7/4/2020 21:39:30",
@@ -482,6 +492,16 @@ sophomore_list = [
       "name": "Akanksha Gupta"
     },
     {
+      "Timestamp": "7/4/2020 21:39:30",
+      "Year": "Sophomore",
+      "branch": "Mining Engg",
+      "github": "https://github.com/akshay1920",
+      "image-link": "./img/members/Akshay Ku Saunta.jpg",
+      "linkedin": "https://www.linkedin.com/in/akshay-kumar-288184191",
+      "mail": "aksmasih003@gmail.com",
+      "name": "Akshay Ku Saunta"
+    },
+    {
       "Timestamp": "7/4/2020 20:24:47",
       "Year": "Sophomore",
       "branch": "Electrical Engg",
@@ -498,6 +518,16 @@ sophomore_list = [
       "image-link": "./img/members/Anshul Choudhary.jpg",
       "mail": "ansh.vach@gmail.com",
       "name": "Anshul Choudhary"
+    },
+    {
+      "Timestamp": "7/4/2020 21:33:07",
+      "Year": "Sophomore",
+      "branch": "Computer Science & Engg",
+      "github": "https://github.com/AVJefferson",
+      "image-link": "./img/members/AV Jefferson.jpg",
+      "linkedin": "https://www.linkedin.com/in/jefferson-a-v-73972018a/",
+      "mail": "avjeferson@gmail.com",
+      "name": "AV Jefferson"
     },
     {
       "Timestamp": "7/4/2020 21:58:37",
@@ -630,6 +660,26 @@ sophomore_list = [
       "name": "Pratham Tahiliani"
     },
     {
+      "Timestamp": "7/4/2020 19:45:42",
+      "Year": "Sophomore",
+      "branch": "Mathematics and Computing",
+      "github": "https://github.com/PriyanshSharma01",
+      "image-link": "./img/members/Priyansh Sharma.jpg",
+      "linkedin": "https://www.linkedin.com/in/priyansh-s-ba456a132",
+      "mail": "sharma22priyansh@gmail.com",
+      "name": "Priyansh Sharma"
+    },
+    {
+      "Timestamp": "7/4/2020 19:45:42",
+      "Year": "Sophomore",
+      "branch": "Electronics & Communication Engg",
+      "github": "https://github.com/puppala-pranay",
+      "image-link": "./img/members/Puppala.jpg",
+      "linkedin": "https://www.linkedin.com/in/pranay-puppala-601a7b1b1/",
+      "mail": "pranaypuppala24@gmail.com",
+      "name": "Puppala Pranay"
+    },
+    {
       "Timestamp": "7/4/2020 20:03:30",
       "Year": "Sophomore",
       "branch": "Mining Engg",
@@ -661,10 +711,28 @@ sophomore_list = [
       "Timestamp": "7/4/2020 22:17:38",
       "Year": "Sophomore",
       "branch": "Electronics & Communication Engg",
+      "github": "https://github.com/swaraj-jain",
       "image-link": "./img/members/me.png",
       "linkedin": "https://www.linkedin.com/in/swaraj-jain-875b821a2/",
       "mail": "Happy2000jain@gmail.com",
       "name": "Swaraj Jain"
+    },
+    {
+      "Timestamp": "7/4/2020 22:17:38",
+      "Year": "Sophomore",
+      "branch": "Computer Science & Engg",
+      "image-link": "./img/members/Thaduri Vamshi.jpg",
+      "linkedin": "https://www.linkedin.com/in/vamshi-thaduri-b8734a19b",
+      "mail": "tvamshi292001@gmail.com",
+      "name": "Thaduri Vamshi"
+    },
+    {
+      "Timestamp": "7/4/2020 22:17:38",
+      "Year": "Sophomore",
+      "branch": "Electronics & Communication Engg",
+      "image-link": "./img/members/Mani Sandeep.jpg",
+      "mail": "manisandeept7@gmail.com",
+      "name": "T Mani Sandeep"
     },
     {
       "Timestamp": "7/4/2020 22:11:51",
@@ -675,6 +743,15 @@ sophomore_list = [
       "linkedin": "https://www.linkedin.com/in/vatsal-ojha-6b67791b0",
       "mail": "vatsalojha1@gmail.com",
       "name": "Vatsal Ojha"
+    },
+    {
+      "Timestamp": "7/4/2020 22:17:37",
+      "Year": "Sophomore",
+      "branch": "Computer Science & Engg",
+      "image-link": "./img/members/Yash Daga.jpg",
+      "linkedin": "https://www.linkedin.com/in/yash-daga-371218147",
+      "mail": "yashdaga26@gmail.com",
+      "name": "Yash Daga"
     },
     {
       "Timestamp": "7/4/2020 22:17:37",
