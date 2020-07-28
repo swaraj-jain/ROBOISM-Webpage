@@ -236,20 +236,20 @@ html {
 
  
 
-  #navlogo{
+  .navlogo{
     height: 100px;
     padding-left: 20px;
   }
   @media(max-width:600px){
     
-    #navlogo{
+    .navlogo{
         height: 80px;
     }
     
   }
   @media(max-width:400px){
     
-    #navlogo{
+    .navlogo{
         height: 77px;
     }
     
@@ -451,3 +451,28 @@ html {
     
   }
   /*====================================================================*/
+
+
+
+
+  .navbarscrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 44px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+      background: #0f0f0f;
+  }
+  @media (max-width:3000px){
+    .navbarscrolled{
+        padding: 0 20px;
+    }
+  }
+ 
+  .scrolledlogo{
+    height: 60px;
+    padding-top: 0px;
+  }

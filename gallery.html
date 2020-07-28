@@ -167,7 +167,7 @@
     <!--Navbar-->
      <!--===========================================================-->
      <header>
-        <a href="index.html" class="logo"><img id="navlogo" src="img/logo1.png"></a>
+        <a href="index.html" class="logo"><img class="navlogo" src="img/logo1.png"></a>
         <nav>
           <ul>
             <li><a href="index.html" id="part" >Home</a></li>
@@ -250,5 +250,25 @@ document.addEventListener('mousemove', showImgContent);
   })
 })
 </script>
+
+<script>
+
+
+    window.onscroll = () => {
+      const nav = document.querySelector('header');
+      const logo= document.querySelector('header a img');
+    
+      if(this.scrollY <= 10){
+        nav.className = 'mainhead'; 
+        logo.className='navlogo'
+      } 
+      else
+      {
+        nav.className = 'navbarscrolled';
+        logo.className='scrolledlogo'
+      }
+      
+    };
+    </script>
 </body>
 </html>
