@@ -239,6 +239,10 @@ html {
   .navlogo{
     height: 100px;
     padding-left: 20px;
+    transition:height 0.3s;
+    -moz-transition:height 0.3s; /* Firefox 4 */
+    -webkit-transition:height 0.3s; /* Safari and Chrome */
+    -o-transition:height 0.3s;
   }
   @media(max-width:600px){
     
@@ -473,6 +477,10 @@ html {
   }
  
   .scrolledlogo{
+    transition:height 0.3s;
+    -moz-transition:height 0.3s; /* Firefox 4 */
+    -webkit-transition:height 0.3s; /* Safari and Chrome */
+    -o-transition:height 0.3s;
     height: 60px;
     padding-top: 0px;
   }

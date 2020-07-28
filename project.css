@@ -343,6 +343,10 @@ button {
 .navlogo{
   height: 130px;
   padding-top: 0px;
+  transition:height 0.3s;
+    -moz-transition:height 0.3s; /* Firefox 4 */
+    -webkit-transition:height 0.3s; /* Safari and Chrome */
+    -o-transition:height 0.3s;
 }
 
 
@@ -743,4 +747,8 @@ button {
   .scrolledlogo{
     height: 60px;
     padding-top: 0px;
+    transition:height 0.3s;
+    -moz-transition:height 0.3s; /* Firefox 4 */
+    -webkit-transition:height 0.3s; /* Safari and Chrome */
+    -o-transition:height 0.3s;
   }
