@@ -262,6 +262,7 @@ html {
 
   header {
     position: fixed;
+    height: 60px;
     top: 0;
     left: 0;
     padding: 0 44px;
