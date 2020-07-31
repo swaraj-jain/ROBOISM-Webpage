@@ -393,7 +393,7 @@ a:hover{
 	background: var(--color);
 }
 
-.front,
+.front1,.front2,.front3,.front4,.fornt,
 .back {
 	position: absolute;
 	width: 100%;
@@ -407,7 +407,7 @@ a:hover{
 	border-radius: var(--radius);
 }
 
-.front {
+.front,.front1,.front2,.front3,.front4 {
 	background: white;
 	transform: rotateY(180deg);
 	border-radius: var(--radius);
@@ -416,6 +416,46 @@ a:hover{
 /* Contents */
 .front::before {
 	content: '';
+	position: absolute;
+	top: 0; right: 0; left: 0; bottom: 0;
+	background: var(--color);
+	clip-path: polygon(0 0, 100% 0, 100% 75%, 75% 100%, 0 100%);
+}
+.front1::before {
+    content: "Rubik's Cube Solver";
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 40px;
+	position: absolute;
+	top: 0; right: 0; left: 0; bottom: 0;
+	background: var(--color);
+	clip-path: polygon(0 0, 100% 0, 100% 75%, 75% 100%, 0 100%);
+}
+.front2::before {
+    content: 'Handwritten  digit  generator';
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 40px;
+	position: absolute;
+	top: 0; right: 0; left: 0; bottom: 0;
+	background: var(--color);
+	clip-path: polygon(0 0, 100% 0, 100% 75%, 75% 100%, 0 100%);
+}
+.front3::before {
+    content: 'MULTIm-8';
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 60px;
+	position: absolute;
+	top: 0; right: 0; left: 0; bottom: 0;
+	background: var(--color);
+	clip-path: polygon(0 0, 100% 0, 100% 75%, 75% 100%, 0 100%);
+}
+.front4::before {
+    content: 'FPV Drone';
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 60px;
 	position: absolute;
 	top: 0; right: 0; left: 0; bottom: 0;
 	background: var(--color);
