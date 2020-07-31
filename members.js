@@ -774,7 +774,7 @@ function add_new_member(name, branch, year, mail, github, linkedin, image) {
                                 +'<hr style="margin-bottom: 1%;">'
                                 +'<p id="textb">'+ branch +'</p>'
                                 +'<p  id="textb">'+year+'</p>'
-                                +'<a href='+mail+' add target="_blank" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
+                                +'<a href="mailto:'+mail+' add target="_blank" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
                                 +'<a href='+github+' add target="_blank" class="slo" ><i class="fab fa-github"></i></a>'
                                 +'<a href='+linkedin+' add target="_blank" class="slo"><i class="fab fa-linkedin-in icon"></i></a>'
                             +'</div>'

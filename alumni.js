@@ -2,7 +2,7 @@ alumni_list = [
   {
     "Timestamp": "7/4/2020 19:24:52",
     "Year": "-2019",
-    "branch": "Electronics & Communication Engg",
+    "branch": " Cipher System",
     "image-link": "./img/members/A Sai Ruthvik.jpg",
     "linkedin": "https://www.linkedin.com/in/sairuthvik",
     "mail": "ruthvik2548@gmail.com",
@@ -11,7 +11,7 @@ alumni_list = [
   {
     "Timestamp": "7/5/2020 8:31:57",
     "Year": "-2020",
-    "branch": "Electronics & Communication Engg",
+    "branch": " Digit Insurance",
     "github": "https://github.com/Mittaladitech",
     "image-link": "./img/members/Aditya Mittal.jpg",
     "linkedin": "https://www.linkedin.com/in/adityamittal12/",
@@ -21,7 +21,7 @@ alumni_list = [
   {
     "Timestamp": "7/4/2020 21:29:11",
     "Year": "-2020",
-    "branch": "Electronics & Communication Engg",
+    "branch": "Samsung Research Institute",
     "image-link": "./img/members/Deepak Agrawal.jpg",
     "linkedin": "https://www.linkedin.com/in/deepak-agrawal-810853177",
     "mail": "deepak1140488@gmail.com",
@@ -30,7 +30,7 @@ alumni_list = [
   {
     "Timestamp": "7/4/2020 20:39:32",
     "Year": "-2020",
-    "branch": "Electronics & Instrumentation Engg",
+    "branch": "CGI India",
     "github": "https://github.com/deepak4669",
     "image-link": "./img/members/Deepak Goyal.jpg",
     "linkedin": "https://www.linkedin.com/in/deepak4669/",
@@ -40,7 +40,7 @@ alumni_list = [
   {
     "Timestamp": "7/4/2020 19:56:19",
     "Year": "-2020",
-    "branch": "Electrical Engg",
+    "branch": "Paytm",
     "image-link": "./img/members/Deepak Jain.jpg",
     "linkedin": "https://www.linkedin.com/in/deepak-jain-1a6853177",
     "mail": "deepak1998jain@gmail.com",
@@ -49,7 +49,7 @@ alumni_list = [
   {
     "Timestamp": "7/5/2020 13:21:05",
     "Year": "-2020",
-    "branch": "Electronics & Communication Engg",
+    "branch": "Microsoft",
     "image-link": "./img/members/Hitesh Kumar.jpg",
     "mail": "hkhitesh25@gmail.com",
     "name": "Hitesh Kumar"
@@ -57,7 +57,7 @@ alumni_list = [
   {
     "Timestamp": "7/4/2020 19:45:19",
     "Year": "-2020",
-    "branch": "Electronics & Communication Engg",
+    "branch": "Reliance Jio",
     "github": "https://github.com/gupta-mayank417",
     "image-link": "./img/members/Mayank Gupta.jpg",
     "linkedin": "https://www.linkedin.com/in/mayank-gupta-bb4699145",
@@ -67,7 +67,7 @@ alumni_list = [
   {
     "Timestamp": "7/5/2020 12:15:48",
     "Year": "-2020",
-    "branch": "Mechanical Engg",
+    "branch": "TechnipFMC",
     "image-link": "./img/members/Mayank Mathur.jpg",
     "linkedin": "https://www.linkedin.com/in/mayank-mathur-679621148",
     "mail": "m.mathur.1605@gmail.com",
@@ -75,8 +75,18 @@ alumni_list = [
   },
   {
     "Timestamp": "7/5/2020 12:20:52",
+    "Year": "-2017",
+    "branch": "Machine Learning Engineer, Niveshi",
+    "github": "https://github.com/markroxor",
+    "image-link": "./img/members/Mohit Rathore.jpg",
+    "linkedin": "https://linkedin.com/in/markroxor/",
+    "mail": "mrmohitrathoremr@gmail.com",
+    "name": "Mohit Rathore"
+  },
+  {
+    "Timestamp": "7/5/2020 12:20:52",
     "Year": "-2020",
-    "branch": "Electronics & Communication Engg",
+    "branch": "Sling Media",
     "image-link": "./img/members/Mudassar Raza.jpg",
     "mail": "mudassar.raza1312@gmail.com",
     "name": "Mudassar Raza"
@@ -84,7 +94,7 @@ alumni_list = [
   {
     "Timestamp": "7/5/2020 0:15:31",
     "Year": "-2019",
-    "branch": "Electronics & Instrumentation Engg",
+    "branch": "Master in Embedded System TU Delf,Netherland",
     "github": "https://github.com/matiyau",
     "image-link": "./img/members/Nishad Mandlik.jpg",
     "linkedin": "https://www.linkedin.com/in/matiyau/",
@@ -94,7 +104,7 @@ alumni_list = [
   {
     "Timestamp": "7/5/2020 0:15:31",
     "Year": "-2019",
-    "branch": "Electronics & Instrumentation Engg",
+    "branch": " Quantiphi",
     "github": "https://github.com/Neelesh1121",
     "image-link": "./img/members/Neelesh Yadav.jpg",
     "linkedin": "https://www.linkedin.com/in/neelesh932/",
@@ -103,8 +113,17 @@ alumni_list = [
   },
   {
     "Timestamp": "7/5/2020 13:53:39",
+    "Year": "-2018",
+    "branch": "JRF @ DRDO",
+    "image-link": "./img/members/Suyash Shandilya.jpg",
+    "linkedin": "https://www.linkedin.com/in/suyash23/",
+    "mail": "su.sh2396@gmail.com",
+    "name": "Suyash Shandilya"
+  },
+  {
+    "Timestamp": "7/5/2020 13:53:39",
     "Year": "-2020",
-    "branch": "Electronics & Communication Engg",
+    "branch": "OYO",
     "github": "https://github.com/UmangLilha/",
     "image-link": "./img/members/umang lilha.jpg",
     "linkedin": "https://www.linkedin.com/in/umang-lilha-981521151",
@@ -123,7 +142,7 @@ function add_new_member(name, branch, year, mail, github, linkedin, image) {
                                 +'<hr style="margin-bottom: 1%;">'
                                 +'<p id="textb">'+ branch +'</p>'
                                 +'<p  id="textb">'+year+'</p>'
-                                +'<a href='+mail+' add target="_blank" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
+                                +'<a href="mailto:'+mail+' add target="_blank" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
                                 +'<a href='+github+' add target="_blank" class="slo" ><i class="fab fa-github"></i></a>'
                                 +'<a href='+linkedin+' add target="_blank" class="slo"><i class="fab fa-linkedin-in icon"></i></a>'
                             +'</div>'
