@@ -1031,6 +1031,29 @@ a{
     padding-top: 10px;
 
 }
+#copyr2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+@media(max-width:700px){
+    #copyr2{
+        font-size: 1.5rem;
+    }
+}
+
+#devloper{
+    color: #0000cd;
+    font-weight: 500;
+}
+#devloper:hover{
+    color: #8383d1;
+    -webkit-transition:color 0.3s;
+    
+}
 /*=======================================*/
 
 #sym{
@@ -1492,7 +1515,7 @@ a{
     }
     
     header nav ul li a {
-      
+        -webkit-transition: all 0.3s;
       height: 50px;
       font-size: 20px;
       line-height: 50px;
@@ -1500,6 +1523,7 @@ a{
       color: #fff;
       text-decoration: none;
       display: block;
+      
   
     }
     
@@ -1508,6 +1532,7 @@ a{
       
       letter-spacing: 0.8rem;
       color: #3b5999;
+      -webkit-transition: all 0.3s;
     }
     
     .menu-toggle {
@@ -1600,6 +1625,8 @@ a{
   
     #part{
       font-weight: 300;
+      
+
   
     }
   
@@ -1964,4 +1991,6 @@ prowrapper h2, h3 {
 	color: lavender;
 }
 
- 
+ ul{
+     list-style: none;
+ }

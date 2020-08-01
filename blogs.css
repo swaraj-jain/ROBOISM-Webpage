@@ -601,7 +601,7 @@ button {
     }
     
     header nav ul li a {
-      
+      -webkit-transition: all 0.3s;
       height: 50px;
       font-size: 20px;
       line-height: 50px;
@@ -614,7 +614,7 @@ button {
     
     header nav ul li a:hover,
     header nav ul li a.active {
-      
+      -webkit-transition: all 0.3s;
       letter-spacing: 0.8rem;
       color: #3b5999;
     }
