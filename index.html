@@ -17,7 +17,8 @@
     <script src="https://kit.fontawesome.com/4e16efa13b.js" crossorigin="anonymous"></script>
     <title>RoboISM</title>
 </head>
-<body onload="loderFunction()">
+<body>
+    <!--onload="loderFunction()"-->
 
 
     <div id="loader-wrapper">
@@ -624,6 +625,8 @@ if($(this).hasClass("activenav")){
     function loderFunction(){
         load.style.display='none';
     }
+    setTimeout(loderFunction(),10000);
+
 </script>
 </body>
 </html>
