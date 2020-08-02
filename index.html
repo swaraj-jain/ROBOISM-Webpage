@@ -452,9 +452,9 @@
           <div class="col-md-3" id="ml">
               <p id="fothd">MAIL US</p>
               <ul >
-                <li><input type="email" class="text-input contact-input" placeholder="Your Email Adress......" style="height: 4.0rem;"  ></li>
-                <li style="padding-bottom: 0px;" ><textarea rows="2" class="text-input contact-input" placeholder="Your Message Here........" style="padding: 2rem;" ></textarea></li>
-                <li><p class="btn btn-success " style="width: 8rem;">Send</p></li>
+                <li><input type="email" class="text-input contact-input" id = "userEmail" placeholder="Your Email Adress......" style="height: 4.0rem;"  ></li>
+                <li style="padding-bottom: 0px;" ><textarea rows="2" class="text-input contact-input" id = "userMessage" placeholder="Your Message Here........" style="padding: 2rem;" ></textarea></li>
+                <li><p class="btn btn-success " id = "contact-submit"style="width: 8rem;">Send</p></li>
               </ul>
             </div>
         </div>
@@ -515,6 +515,10 @@
         
      <!--==================================================-->
 
+<!-- Firebase contact form -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+<script src="contact-form.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
