@@ -2,7 +2,7 @@ alumni_list = [
   {
     "Timestamp": "7/4/2020 19:24:52",
     "Year": "-2019",
-    "branch": " Cipher System",
+    "branch": " Lumenic",
     "image-link": "./img/members/A Sai Ruthvik.jpg",
     "linkedin": "https://www.linkedin.com/in/sairuthvik",
     "mail": "ruthvik2548@gmail.com",
