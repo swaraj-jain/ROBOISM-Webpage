@@ -96,7 +96,7 @@ alumni_list = [
     "Year": "-2019",
     "branch": "MSc in Embedded System, Univ : TU Delft,Netherlands",
     "github": "https://github.com/matiyau",
-    "image-link": "./img/members/Nishad Mandlik.jpg",
+    "image-link": "galleryimg/nishadsir2.png",
     "linkedin": "https://www.linkedin.com/in/matiyau/",
     "mail": "mandliksg@gmail.com",
     "name": "Nishad Mandlik"
