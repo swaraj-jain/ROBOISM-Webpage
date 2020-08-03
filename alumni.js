@@ -94,7 +94,7 @@ alumni_list = [
   {
     "Timestamp": "7/5/2020 0:15:31",
     "Year": "-2019",
-    "branch": "Master in Embedded System TU Delf,Netherland",
+    "branch": "MSc in Embedded System, Univ : TU Delft,Netherlands",
     "github": "https://github.com/matiyau",
     "image-link": "./img/members/Nishad Mandlik.jpg",
     "linkedin": "https://www.linkedin.com/in/matiyau/",
