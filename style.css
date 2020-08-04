@@ -56,7 +56,7 @@ body{
     padding-top: 50%;
     font-weight: 900;
     color: white;
-    font-size: 6rem;
+    font-size: 5.4rem;
     padding-left: 16%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -70,7 +70,7 @@ body{
     .navlogo{
         height: 95px;
     }
-    #landingheading{
+    #{
         padding-top: 40%;
         font-size: 4.5rem;
         padding-left: 12%;
@@ -100,7 +100,7 @@ body{
     }
     #landingheading{
         padding-top: 15%;
-        font-size: 4.5rem;
+        font-size: 4.2rem;
         padding-left: 12%;
     }
     
@@ -126,7 +126,7 @@ body{
     }
     #landingheading{
         padding-top: 25%;
-        font-size: 4rem;
+        font-size: 3.8rem;
     }
     #landingimg1{
         padding-top: 2rem;
@@ -139,7 +139,7 @@ body{
 @media(max-width:600px){
     #landingheading{
         padding-top: 30%;
-        font-size: 4rem;
+        font-size: 3.8rem;
     }
 }
 .topl{
@@ -158,7 +158,22 @@ a:hover{
 }
 #iht:hover{
     transition: linear;
-   font-size: 7rem;
+   font-size: 6.5rem;
+}
+@media(max-width:900px)
+{
+    #iht{
+        font-size:5.5rem;}
+}
+@media(max-width:600px)
+{
+    #iht{
+        font-size:5.0rem;}
+}
+@media(max-width:500px)
+{
+    #iht{
+        font-size:4.8rem;}
 }
 .parimg1{
     min-height: 30vh;
@@ -181,14 +196,15 @@ a:hover{
     padding-bottom: 10%;
  }
  #abouthd{
-    font-size: 6rem;
+    font-size: 5.2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
  }
 
 @media(max-width:600px){
     #abouthd{
-        font-size: 4rem;
+        font-size: 3.6rem;
+        font-weight: 700;
     }
 }
  .aboutcon{
@@ -197,6 +213,11 @@ a:hover{
     
     font-family: 'Montserrat', sans-serif;
  }
+ @media(max-width:600px){
+    .aboutcon{
+        font-size:1.9rem;
+    }
+}
  #aboutimg{
     -webkit-transition: -webkit-transform 0.15s ease 0s;
     -moz-transition: -moz-transform 0.15s ease 0s;
@@ -320,7 +341,7 @@ a:hover{
     padding: 5rem 8rem;
 }
 #prolh{
-    font-size: 6.5rem;
+    font-size: 5.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     text-align: center;
@@ -527,18 +548,26 @@ a{
         display: none;
     }
     #prolh{
-        font-size: 5rem;
+        font-size: 4.8rem;
         font-family: 'Montserrat', sans-serif;
         font-weight: 900;
         text-align: center;
     }
+    
 }
 @media(max-width:900px){
     .pann2{
         display: none;
     }
     #sm{
-        font-size: 4.5rem;
+        font-size: 4.0rem;
+        text-align: center;
+    }
+}
+@media(max-width:700px){
+    
+    #sm{
+        font-size: 3.0rem;
         text-align: center;
     }
 }
