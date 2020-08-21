@@ -2,6 +2,7 @@ alumni_list = [
   {
     "Timestamp": "7/4/2020 19:24:52",
     "Year": "-2019",
+    "github": "",
     "branch": " Lumenic",
     "image-link": "./img/members/A Sai Ruthvik.jpg",
     "linkedin": "https://www.linkedin.com/in/sairuthvik",
@@ -21,6 +22,7 @@ alumni_list = [
   {
     "Timestamp": "7/4/2020 21:29:11",
     "Year": "-2020",
+    "github": "",
     "branch": "Samsung Research Institute",
     "image-link": "./img/members/Deepak Agrawal.jpg",
     "linkedin": "https://www.linkedin.com/in/deepak-agrawal-810853177",
@@ -41,16 +43,29 @@ alumni_list = [
     "Timestamp": "7/4/2020 19:56:19",
     "Year": "-2020",
     "branch": "Paytm",
+    "github": "",
     "image-link": "./img/members/Deepak Jain.jpg",
     "linkedin": "https://www.linkedin.com/in/deepak-jain-1a6853177",
     "mail": "deepak1998jain@gmail.com",
     "name": "Deepak Jain"
   },
   {
+    "Timestamp": "7/5/2020 0:15:31",
+    "Year": "-2019",
+    "branch": "Mechanical Engineer 1",
+    "github": "",
+    "image-link": "./img/members/Gourav.jpg",
+    "linkedin": "https://www.linkedin.com/in/gourav-mishra-a19841106/",
+    "mail": "g.iit.ism@gmail.com",
+    "name": "Gourav"
+  },
+  {
     "Timestamp": "7/5/2020 13:21:05",
     "Year": "-2020",
     "branch": "Microsoft",
+    "github": "",
     "image-link": "./img/members/Hitesh Kumar.jpg",
+    "linkedin": "",
     "mail": "hkhitesh25@gmail.com",
     "name": "Hitesh Kumar"
   },
@@ -68,6 +83,7 @@ alumni_list = [
     "Timestamp": "7/5/2020 12:15:48",
     "Year": "-2020",
     "branch": "TechnipFMC",
+    "github": "",
     "image-link": "./img/members/Mayank Mathur.jpg",
     "linkedin": "https://www.linkedin.com/in/mayank-mathur-679621148",
     "mail": "m.mathur.1605@gmail.com",
@@ -87,7 +103,9 @@ alumni_list = [
     "Timestamp": "7/5/2020 12:20:52",
     "Year": "-2020",
     "branch": "Sling Media",
+    "github": "",
     "image-link": "./img/members/Mudassar Raza.jpg",
+    "linkedin": "",
     "mail": "mudassar.raza1312@gmail.com",
     "name": "Mudassar Raza"
   },
@@ -103,6 +121,16 @@ alumni_list = [
   },
   {
     "Timestamp": "7/5/2020 0:15:31",
+    "Year": "-2018",
+    "branch": "TechMonks Engin- eering Solutions LLP CO-FOUNDER",
+    "github": "",
+    "image-link": "./img/members/Nitya Nand.jpg",
+    "linkedin": "",
+    "mail": "lightningvns@gmail.com",
+    "name": "Nitya Nand"
+  },
+  {
+    "Timestamp": "7/5/2020 0:15:31",
     "Year": "-2019",
     "branch": " Quantiphi",
     "github": "https://github.com/Neelesh1121",
@@ -112,9 +140,20 @@ alumni_list = [
     "name": "Neelesh Yadav"
   },
   {
+    "Timestamp": "7/5/2020 0:15:31",
+    "Year": "-2019",
+    "branch": "R&D FPGA Design Engineer at Tejas Networks",
+    "github": "https://github.com/sumanth-kalluri",
+    "image-link": "./img/members/Sumanth.jpg",
+    "linkedin": "https://www.linkedin.com/in/sai-sumanth-kalluri-7b9015136",
+    "mail": "saisumanthkalluri@gmail.com",
+    "name": "Sumanth"
+  },
+  {
     "Timestamp": "7/5/2020 13:53:39",
     "Year": "-2018",
     "branch": "JRF @ DRDO",
+    "github": "",
     "image-link": "./img/members/Suyash Shandilya.jpg",
     "linkedin": "https://www.linkedin.com/in/suyash23/",
     "mail": "su.sh2396@gmail.com",
@@ -133,7 +172,10 @@ alumni_list = [
 ];
 
 function add_new_member(name, branch, year, mail, github, linkedin, image) {
-    console.log(image, image.length);
+    console.log(github);
+    
+    if(github.length>0 && linkedin.length>0)
+    {
     var new_member = '<div class="col-md-4" id="oc">'
                         +'<div id="sym1">'
                             +'<div class="fornt"><img style="height:84%" src='+image+' alt="img"><h2 id="fn">'+name+'</h2></div>'
@@ -148,8 +190,40 @@ function add_new_member(name, branch, year, mail, github, linkedin, image) {
                             +'</div>'
                         +'</div>'
                     +'</div>';   
-    
+    }
+    else if(linkedin.length>0)
+    {
+      var new_member = '<div class="col-md-4" id="oc">'
+                          +'<div id="sym1">'
+                              +'<div class="fornt"><img style="height:84%" src='+image+' alt="img"><h2 id="fn">'+name+'</h2></div>'
+                              +'<div class="back">'
+                                  +'<h2 >'+ name +'</h2>'
+                                  +'<hr style="margin-bottom: 1%;">'
+                                  +'<p id="textb">'+ branch +'</p>'
+                                  +'<p  id="textb">'+year+'</p>'
+                                  +'<a href="mailto:'+mail+' add target="_blank" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
+                                  +'<a href='+linkedin+' add target="_blank" class="slo"><i class="fab fa-linkedin-in icon"></i></a>'
+                              +'</div>'
+                          +'</div>'
+                      +'</div>';  
+    }
+    else
+    {
+      var new_member = '<div class="col-md-4" id="oc">'
+                        +'<div id="sym1">'
+                            +'<div class="fornt"><img style="height:84%" src='+image+' alt="img"><h2 id="fn">'+name+'</h2></div>'
+                            +'<div class="back">'
+                                +'<h2 >'+ name +'</h2>'
+                                +'<hr style="margin-bottom: 1%;">'
+                                +'<p id="textb">'+ branch +'</p>'
+                                +'<p  id="textb">'+year+'</p>'
+                                +'<a href="mailto:'+mail+' add target="_blank" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
+                            +'</div>'
+                        +'</div>'
+                    +'</div>';  
+    }
     $('.row').append(new_member)
+  
 }
 
 function add_alumni(){

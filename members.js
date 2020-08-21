@@ -3,6 +3,7 @@ alumni_list = [
       "Timestamp": "7/4/2020 19:24:52",
       "Year": "Alumini",
       "branch": "Electronics & Communication Engg",
+      "github": "",
       "image-link": "./img/members/A Sai Ruthvik.jpg",
       "linkedin": "https://www.linkedin.com/in/sairuthvik",
       "mail": "ruthvik2548@gmail.com",
@@ -21,6 +22,7 @@ alumni_list = [
     {
       "Timestamp": "7/4/2020 21:29:11",
       "Year": "Alumini",
+      "github": "",
       "branch": "Electronics & Communication Engg",
       "image-link": "./img/members/Deepak Agrawal.jpg",
       "linkedin": "https://www.linkedin.com/in/deepak-agrawal-810853177",
@@ -41,6 +43,7 @@ alumni_list = [
       "Timestamp": "7/4/2020 19:56:19",
       "Year": "Alumini",
       "branch": "Electrical Engg",
+      "github": "",
       "image-link": "./img/members/Deepak Jain.jpg",
       "linkedin": "https://www.linkedin.com/in/deepak-jain-1a6853177",
       "mail": "deepak1998jain@gmail.com",
@@ -50,7 +53,9 @@ alumni_list = [
       "Timestamp": "7/5/2020 13:21:05",
       "Year": "Alumini",
       "branch": "Electronics & Communication Engg",
+      "github": "",
       "image-link": "./img/members/Hitesh Kumar.jpg",
+      "linkedin": "",
       "mail": "hkhitesh25@gmail.com",
       "name": "Hitesh Kumar"
     },
@@ -68,6 +73,7 @@ alumni_list = [
       "Timestamp": "7/5/2020 12:15:48",
       "Year": "Alumini",
       "branch": "Mechanical Engg",
+      "github": "",
       "image-link": "./img/members/Mayank Mathur.jpg",
       "linkedin": "https://www.linkedin.com/in/mayank-mathur-679621148",
       "mail": "m.mathur.1605@gmail.com",
@@ -77,7 +83,9 @@ alumni_list = [
       "Timestamp": "7/5/2020 12:20:52",
       "Year": "Alumini",
       "branch": "Electronics & Communication Engg",
+      "github": "",
       "image-link": "./img/members/Mudassar Raza.jpg",
+      "linkedin": "",
       "mail": "mudassar.raza1312@gmail.com",
       "name": "Mudassar Raza"
     },
@@ -86,6 +94,7 @@ alumni_list = [
       "Year": "Alumini",
       "branch": "Electronics & Instrumentation Engg",
       "github": "https://github.com/matiyau",
+      "github": "",
       "image-link": "./img/members/Nishad Mandlik.jpg",
       "linkedin": "https://www.linkedin.com/in/matiyau/",
       "mail": "mandliksg@gmail.com",
@@ -128,6 +137,7 @@ final_list = [
       "Timestamp": "7/5/2020 0:14:31",
       "Year": "Final",
       "branch": "Mechanical Engg",
+      "github": "",
       "image-link": "./img/members/Eric John Dungdung.jpg",
       "linkedin": "https://in.linkedin.com/in/eric-john-dungdung-452b27158",
       "mail": "eric.17je002743@mech.iitism.ac.in",
@@ -177,6 +187,7 @@ final_list = [
       "Timestamp": "7/4/2020 22:14:30",
       "Year": "Final",
       "branch": "Mining Machinery",
+      "github": "",
       "image-link": "./img/members/Prince Kunal.jpg",
       "linkedin": "https://www.linkedin.com/in/prince-kunal-a7ab3a165/",
       "mail": "princekunal1999@gmail.com",
@@ -206,7 +217,9 @@ final_list = [
       "Timestamp": "7/5/2020 6:00:28",
       "Year": "Final",
       "branch": "Electronics & Communication Engg",
+      "github": "",
       "image-link": "./img/members/Sourav Kumar Sahu.jpg",
+      "linkedin": "",
       "mail": "souravhzb@gmail.com",
       "name": "Sourav Kumar Sahu"
     },
@@ -237,6 +250,7 @@ pre_final_list = [
       "Timestamp": "7/4/2020 23:28:48",
       "Year": "Pre-Final",
       "branch": "Electronics & Communication Engg",
+      "github": "",
       "image-link": "./img/members/Akshat jain.jpg",
       "linkedin": "https://www.linkedin.com/in/akshat-jain-014291174",
       "mail": "jainakshatjain99@gmail.com",
@@ -246,7 +260,9 @@ pre_final_list = [
       "Timestamp": "7/4/2020 21:34:27",
       "Year": "Pre-Final",
       "branch": "Applied Geophysics",
+      "github": "",
       "image-link": "./img/members/Ayush Kumar.jpg",
+      "linkedin": "",
       "mail": "ayush6122@gmail.com",
       "name": "Ayush Kumar"
     },
@@ -274,6 +290,7 @@ pre_final_list = [
       "Timestamp": "7/4/2020 23:10:12",
       "Year": "Pre-Final",
       "branch": "Electronics & Communication Engg",
+      "github": "",
       "image-link": "./img/members/Harshit Jain.jpg",
       "linkedin": "http://www.linkedin.com/in/harshit-jain-50a417175",
       "mail": "harshitj950@gmail.com",
@@ -293,6 +310,7 @@ pre_final_list = [
       "Timestamp": "7/4/2020 20:44:57",
       "Year": "Pre-Final",
       "branch": "Mechanical Engg",
+      "github": "",
       "image-link": "./img/members/INAMPUDI SAI AMITH.jpg",
       "linkedin": "https://www.linkedin.com/in/sai-amith-inampudi-4701a7175",
       "mail": "saikrishna09.amith01@gmail.com",
@@ -342,6 +360,7 @@ pre_final_list = [
       "Timestamp": "7/4/2020 23:11:00",
       "Year": "Pre-Final",
       "branch": "Electronics & Communication Engg",
+      "github": "",
       "image-link": "./img/members/Kaushal Kumar Kesharvani.jpg",
       "linkedin": "https://www.linkedin.com/in/kaushal-kumar-kesharvani-6201b0175",
       "mail": "kesharikaushal15@gmail.com",
@@ -351,6 +370,7 @@ pre_final_list = [
       "Timestamp": "7/4/2020 23:32:29",
       "Year": "Pre-Final",
       "branch": "Electronics & Communication Engg",
+      "github": "",
       "image-link": "./img/members/Kaushik Shukla.jpg",
       "linkedin": "https://www.linkedin.com/in/kaushik-shukla-aa71a9175",
       "mail": "mail.kaushik313@gmail.com",
@@ -410,6 +430,7 @@ pre_final_list = [
       "Timestamp": "7/5/2020 0:26:30",
       "Year": "Pre-Final",
       "branch": "Mining Machinery",
+      "github": "",
       "image-link": "./img/members/Sayantani Bhattacharya.jpg",
       "linkedin": "https://www.linkedin.com/in/sayantani-bhattacharya-19a419175/",
       "mail": "roopsha2k@gmail.com",
@@ -419,6 +440,7 @@ pre_final_list = [
       "Timestamp": "7/4/2020 21:39:30",
       "Year": "Pre-Final",
       "branch": "Electronics & Instrumentation Engg",
+      "github": "",
       "image-link": "./img/members/Shambhav Goswami.jpg",
       "linkedin": "https://www.linkedin.com/in/shambhav-goswami",
       "mail": "goswamishambhav@gmail.com",
@@ -428,6 +450,7 @@ pre_final_list = [
       "Timestamp": "7/4/2020 21:05:05",
       "Year": "Pre-Final",
       "branch": "Electrical Engg",
+      "github": "",
       "image-link": "./img/members/Srajan Gupta.jpg",
       "linkedin": "https://www.linkedin.com/in/srajan-gupta-4a9650172",
       "mail": "srajan.gupta.712@gmail.com",
@@ -457,6 +480,7 @@ pre_final_list = [
       "Timestamp": "7/4/2020 23:53:47",
       "Year": "Pre-Final",
       "branch": "Civil Engg",
+      "github": "",
       "image-link": "./img/members/Zeeshanul Hoda.jpg",
       "linkedin": "https://www.linkedin.com/in/zeeshanul-hoda-405a74179",
       "mail": "zhoda20001@gmail.com",
@@ -469,6 +493,7 @@ sophomore_list = [
       "Timestamp": "7/4/2020 21:52:17",
       "Year": "Sophomore",
       "branch": "Mineral Engg",
+      "github": "",
       "image-link": "./img/members/ABHISHEK SHAH.jpg",
       "linkedin": "https://www.linkedin.com/in/abhishek-shah-993019199",
       "mail": "cpabhishekshah10@gmail.com",
@@ -478,7 +503,9 @@ sophomore_list = [
       "Timestamp": "7/4/2020 20:26:56",
       "Year": "Sophomore",
       "branch": "MINING MACHINERY",
+      "github": "",
       "image-link": "./img/members/ARNAB ADHIKARI.jpg",
+      "linkedin": "",
       "mail": "arnabdhn2001.19je0178@mme.iitism.ac.in",
       "name": "ARNAB ADHIKARI"
     },
@@ -486,6 +513,7 @@ sophomore_list = [
       "Timestamp": "7/4/2020 21:39:30",
       "Year": "Sophomore",
       "branch": "Mechanical Engg",
+      "github": "",
       "image-link": "./img/members/Akanksha Gupta.jpg",
       "linkedin": "https://www.linkedin.com/in/akanksha-gupta-9b6b5a1a4",
       "mail": "akgupta2391@gmail.com",
@@ -515,7 +543,9 @@ sophomore_list = [
       "Timestamp": "7/4/2020 21:33:07",
       "Year": "Sophomore",
       "branch": "Electrical Engg",
+      "github": "",
       "image-link": "./img/members/Anshul Choudhary.jpg",
+      "linkedin": "",
       "mail": "ansh.vach@gmail.com",
       "name": "Anshul Choudhary"
     },
@@ -533,7 +563,9 @@ sophomore_list = [
       "Timestamp": "7/4/2020 21:58:37",
       "Year": "Sophomore",
       "branch": "Civil Engg",
+      "github": "",
       "image-link": "./img/members/Bibha Kumari.jpg",
+      "linkedin": "",
       "mail": "vibhasharma2509@gmail.com",
       "name": "Bibha Kumari"
     },
@@ -541,7 +573,9 @@ sophomore_list = [
       "Timestamp": "7/4/2020 19:58:10",
       "Year": "Sophomore",
       "branch": "Electronics & Communication Engg",
+      "github": "",
       "image-link": "./img/members/Chepuri V S S Santosh Kumar.jpg",
+      "linkedin": "",
       "mail": "santoshcvss17801@gmail.com",
       "name": "CVSS Santosh Kumar"
     },
@@ -569,6 +603,7 @@ sophomore_list = [
       "Timestamp": "7/4/2020 20:20:04",
       "Year": "Sophomore",
       "branch": "Electronics & communication Engg",
+      "github": "",
       "image-link": "./img/members/Himanshu Singhal.jpg",
       "linkedin": "https://www.linkedin.com/in/himanshu-singhal-2b4648191",
       "mail": "himanshusinghal2018@gmail.com",
@@ -590,6 +625,7 @@ sophomore_list = [
       "branch": "Computer Science & Engg",
       "github": "https://github.com/JaySharma1048576",
       "image-link": "./img/members/Jay Sharma.jpg",
+      "linkedin": "",
       "mail": "jay.sharma25102001@gmail.com",
       "name": "Jay Sharma"
     },
@@ -597,7 +633,9 @@ sophomore_list = [
       "Timestamp": "7/5/2020 0:58:01",
       "Year": "Sophomore",
       "branch": "Mechanical Engg",
+      "github": "",
       "image-link": "./img/members/Karan Tyagi.jpg",
+      "linkedin": "",
       "mail": "karantyagi9702@gmail.com",
       "name": "Karan Tyagi"
     },
@@ -615,6 +653,7 @@ sophomore_list = [
       "Timestamp": "7/4/2020 19:50:16",
       "Year": "Sophomore",
       "branch": "Engineering physics",
+      "github": "",
       "image-link": "./img/members/Lakshmi aparna yelganamoni.jpg",
       "linkedin": "https://www.linkedin.com/in/lakshmi-aparna-159a73195",
       "mail": "ylay5719@gmail.com",
@@ -624,6 +663,7 @@ sophomore_list = [
       "Timestamp": "7/4/2020 19:38:02",
       "Year": "Sophomore",
       "branch": "Computer Science & Engg",
+      "github": "",
       "image-link": "./img/members/Mayank Agarwal.jpg",
       "linkedin": "https://www.linkedin.com/in/mayank-agarwal-415906195",
       "mail": "magarwal1201@gmail.com",
@@ -693,7 +733,9 @@ sophomore_list = [
       "Timestamp": "7/4/2020 21:37:54",
       "Year": "Sophomore",
       "branch": "Mining Engg",
+      "github": "",
       "image-link": "./img/members/Siddhant shelke.jpg",
+      "linkedin": "",
       "mail": "siddhantshelke01@gmail.com",
       "name": "Siddhant shelke"
     },
@@ -721,6 +763,7 @@ sophomore_list = [
       "Timestamp": "7/4/2020 22:17:38",
       "Year": "Sophomore",
       "branch": "Computer Science & Engg",
+      "github": "",
       "image-link": "./img/members/Thaduri Vamshi.jpg",
       "linkedin": "https://www.linkedin.com/in/vamshi-thaduri-b8734a19b",
       "mail": "tvamshi292001@gmail.com",
@@ -730,7 +773,9 @@ sophomore_list = [
       "Timestamp": "7/4/2020 22:17:38",
       "Year": "Sophomore",
       "branch": "Electronics & Communication Engg",
+      "github": "",
       "image-link": "./img/members/Mani Sandeep.jpg",
+      "linkedin": "",
       "mail": "manisandeept7@gmail.com",
       "name": "T Mani Sandeep"
     },
@@ -748,6 +793,7 @@ sophomore_list = [
       "Timestamp": "7/4/2020 22:17:37",
       "Year": "Sophomore",
       "branch": "Computer Science & Engg",
+      "github": "",
       "image-link": "./img/members/Yash Daga.jpg",
       "linkedin": "https://www.linkedin.com/in/yash-daga-371218147",
       "mail": "yashdaga26@gmail.com",
@@ -757,6 +803,7 @@ sophomore_list = [
       "Timestamp": "7/4/2020 22:17:37",
       "Year": "Sophomore",
       "branch": "Electronics & Communication Engg",
+      "github": "",
       "image-link": "./img/members/Yalamarthi Ravi Shankar.jpg",
       "linkedin": "https://www.linkedin.com/in/yalamarthi-ravi-shankar-a14a251aa",
       "mail": "ravishankaryalamarthi@gmail.com",
@@ -766,6 +813,10 @@ sophomore_list = [
  
 function add_new_member(name, branch, year, mail, github, linkedin, image) {
     //console.log(image, image.length);
+    
+
+    if(github.length>0 && linkedin.length>0)
+    {
     var new_member = '<div class="col-md-4" id="oc">'
                         +'<div id="sym1">'
                             +'<div class="fornt"><img style="height:84%" src='+image+' alt="img"><h2 id="fn">'+name+'</h2></div>'
@@ -780,6 +831,41 @@ function add_new_member(name, branch, year, mail, github, linkedin, image) {
                             +'</div>'
                         +'</div>'
                     +'</div>';   
+    }
+    else if(linkedin.length>0)
+    {
+      var new_member = '<div class="col-md-4" id="oc">'
+                          +'<div id="sym1">'
+                              +'<div class="fornt"><img style="height:84%" src='+image+' alt="img"><h2 id="fn">'+name+'</h2></div>'
+                              +'<div class="back">'
+                                  +'<h2 >'+ name +'</h2>'
+                                  +'<hr style="margin-bottom: 1%;">'
+                                  +'<p id="textb">'+ branch +'</p>'
+                                  +'<p  id="textb">'+year+'</p>'
+                                  +'<a href="mailto:'+mail+' add target="_blank" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
+                                  +'<a href='+linkedin+' add target="_blank" class="slo"><i class="fab fa-linkedin-in icon"></i></a>'
+                              +'</div>'
+                          +'</div>'
+                      +'</div>';  
+    }
+    else
+    {
+      var new_member = '<div class="col-md-4" id="oc">'
+                        +'<div id="sym1">'
+                            +'<div class="fornt"><img style="height:84%" src='+image+' alt="img"><h2 id="fn">'+name+'</h2></div>'
+                            +'<div class="back">'
+                                +'<h2 >'+ name +'</h2>'
+                                +'<hr style="margin-bottom: 1%;">'
+                                +'<p id="textb">'+ branch +'</p>'
+                                +'<p  id="textb">'+year+'</p>'
+                                +'<a href="mailto:'+mail+' add target="_blank" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
+                            +'</div>'
+                        +'</div>'
+                    +'</div>';  
+    }
+                    
+                    
+
     if(year == 'Final')
         $('#final').append(new_member)
     if(year == 'Pre-Final')

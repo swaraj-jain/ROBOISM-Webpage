@@ -177,7 +177,7 @@ a:hover{
 }
 .parimg1{
     min-height: 30vh;
-    background: url(https://images7.alphacoders.com/305/305875.jpg);
+    background: url(./img/background/gallery.jpeg);
     /*https://images.unsplash.com/photo-1563207153-f403bf289096?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80*/
 }
 .parimg1 {
@@ -532,7 +532,7 @@ a:hover{
 
 #sm{
     color: #fff;
-    font-size: 4.5rem;
+    font-size: 3.8rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-align: right;
