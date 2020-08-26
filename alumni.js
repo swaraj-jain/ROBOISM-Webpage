@@ -12,7 +12,7 @@ alumni_list = [
   {
     "Timestamp": "7/5/2020 8:31:57",
     "Year": "-2020",
-    "branch": " Digit Insurance",
+    "branch": "Atria Convergence Technologies",
     "github": "https://github.com/Mittaladitech",
     "image-link": "./img/members/Aditya Mittal.jpg",
     "linkedin": "https://www.linkedin.com/in/adityamittal12/",
