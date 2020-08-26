@@ -350,7 +350,7 @@ pre_final_list = [
       "Timestamp": "05/07/2020 15:14:58",
       "Year": "Pre-Final",
       "branch": "Electronics & Communication Engg",
-      "github": "  https://github.com/kjyothiswaroop",
+      "github": "",
       "image-link": "./img/members/Karan Kumar Burnwal.jpg",
       "linkedin": " https://www.linkedin.com/in/karan-burnwal-92a1a7175/",
       "mail": "calkaran@gmail.com",
