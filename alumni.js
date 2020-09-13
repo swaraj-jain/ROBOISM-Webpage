@@ -3,7 +3,7 @@ alumni_list = [
     "Timestamp": "7/4/2020 19:24:52",
     "Year": "-2019",
     "github": "",
-    "branch": " Lumenic",
+    "branch": " Lumenci",
     "image-link": "./img/members/A Sai Ruthvik.jpg",
     "linkedin": "https://www.linkedin.com/in/sairuthvik",
     "mail": "ruthvik2548@gmail.com",
