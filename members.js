@@ -500,6 +500,16 @@ sophomore_list = [
       "name": "ABHISHEK SHAH"
     },
     {
+      "Timestamp": "7/4/2020 21:52:17",
+      "Year": "Sophomore",
+      "branch": "Electrical Engg ",
+      "github": "https://github.com/aditya-kr-garg",
+      "image-link": "./img/members/Aditya Kumar Garg.jpg",
+      "linkedin": "http://www.linkedin.com/in/aditya-kumar-garg-9a00b3192",
+      "mail": "aditya.garg.rewa9800@gmail.com",
+      "name": "Aditya Kumar Garg"
+    },
+    {
       "Timestamp": "7/4/2020 20:26:56",
       "Year": "Sophomore",
       "branch": "MINING MACHINERY",
@@ -512,7 +522,7 @@ sophomore_list = [
     {
       "Timestamp": "7/4/2020 21:39:30",
       "Year": "Sophomore",
-      "branch": "Mechanical Engg",
+      "branch": "Electronics & Communication Engg",
       "github": "",
       "image-link": "./img/members/Akanksha Gupta.jpg",
       "linkedin": "https://www.linkedin.com/in/akanksha-gupta-9b6b5a1a4",
@@ -532,12 +542,32 @@ sophomore_list = [
     {
       "Timestamp": "7/4/2020 20:24:47",
       "Year": "Sophomore",
-      "branch": "Electrical Engg",
+      "branch": "Electronics & Communication Engg",
       "github": "https://github.com/amanagrawal5510?tab=repositories",
       "image-link": "./img/members/Aman Agarwal.jpg",
       "linkedin": "https://www.linkedin.com/in/aman-agrawal-281852192",
       "mail": "amanagrawal5510@gmail.com",
       "name": "Aman Agarwal"
+    },
+    {
+      "Timestamp": "7/4/2020 20:24:47",
+      "Year": "Sophomore",
+      "branch": "Mathematics and Computing",
+      "github": "https://github.com/AmanHarsh",
+      "image-link": "./img/members/Aman Harsh.jpg",
+      "linkedin": "https://www.linkedin.com/in/aman-harsh-051850192/",
+      "mail": "aman.harsh.1451@gmail.com",
+      "name": "Aman Harsh"
+    },
+    {
+      "Timestamp": "7/4/2020 20:24:47",
+      "Year": "Sophomore",
+      "branch": "Mathematics and Computing",
+      "github": "https://github.com/amanism19",
+      "image-link": "./img/members/Aman Kumar.jpg",
+      "linkedin": "https://www.linkedin.com/in/aman-kumar-930854192",
+      "mail": "",
+      "name": "Aman Kumar"
     },
     {
       "Timestamp": "7/4/2020 21:33:07",
@@ -560,9 +590,19 @@ sophomore_list = [
       "name": "AV Jefferson"
     },
     {
+      "Timestamp": "7/4/2020 21:33:07",
+      "Year": "Sophomore",
+      "branch": "Mathematics and Computing",
+      "github": "https://github.com/AyushTripathi-sketch",
+      "image-link": "./img/members/Ayush Tripathi.jpg",
+      "linkedin": "https://www.linkedin.com/in/thinkayush",
+      "mail": "ayushtripathi766@gmail.com",
+      "name": "Ayush Tripathi"
+    },
+    {
       "Timestamp": "7/4/2020 21:58:37",
       "Year": "Sophomore",
-      "branch": "Civil Engg",
+      "branch": "Electrical Engg",
       "github": "",
       "image-link": "./img/members/Bibha Kumari.jpg",
       "linkedin": "",
@@ -650,9 +690,19 @@ sophomore_list = [
       "name": "Kartik Saini"
     },
     {
+      "Timestamp": "7/4/2020 22:37:38",
+      "Year": "Sophomore",
+      "branch": "Computer Science & Engg",
+      "github": "https://github.com/kartikekishore",
+      "image-link": "./img/members/Kartike Kishore.jpg",
+      "linkedin": "https://www.linkedin.com/in/kartike-kishore-2163861a4",
+      "mail": "kartikekishore@gmail.com",
+      "name": "Kartike Kishore"
+    },
+    {
       "Timestamp": "7/4/2020 19:50:16",
       "Year": "Sophomore",
-      "branch": "Engineering physics",
+      "branch": "Electrical Engg",
       "github": "",
       "image-link": "./img/members/Lakshmi aparna yelganamoni.jpg",
       "linkedin": "https://www.linkedin.com/in/lakshmi-aparna-159a73195",
@@ -732,7 +782,7 @@ sophomore_list = [
     {
       "Timestamp": "7/4/2020 21:37:54",
       "Year": "Sophomore",
-      "branch": "Mining Engg",
+      "branch": "Electrical Engg",
       "github": "",
       "image-link": "./img/members/Siddhant shelke.jpg",
       "linkedin": "",
@@ -802,6 +852,16 @@ sophomore_list = [
     {
       "Timestamp": "7/4/2020 22:17:37",
       "Year": "Sophomore",
+      "branch": "Petroleum Engg",
+      "github": "",
+      "image-link": "./img/members/Yash Mittal.jpg",
+      "linkedin": "https://www.linkedin.com/in/yash-mittal-082038195",
+      "mail": "yashmittal1906@gmail.com",
+      "name": "Yash Mittal"
+    },
+    {
+      "Timestamp": "7/4/2020 22:17:37",
+      "Year": "Sophomore",
       "branch": "Electronics & Communication Engg",
       "github": "",
       "image-link": "./img/members/Yalamarthi Ravi Shankar.jpg",
@@ -825,7 +885,7 @@ function add_new_member(name, branch, year, mail, github, linkedin, image) {
                                 +'<hr style="margin-bottom: 1%;">'
                                 +'<p id="textb">'+ branch +'</p>'
                                 +'<p  id="textb">'+year+'</p>'
-                                +'<a href="mailto:'+mail+' add target="_blank" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
+                                +'<a href="mailto:'+mail+'"class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
                                 +'<a href='+github+' add target="_blank" class="slo" ><i class="fab fa-github"></i></a>'
                                 +'<a href='+linkedin+' add target="_blank" class="slo"><i class="fab fa-linkedin-in icon"></i></a>'
                             +'</div>'
@@ -842,7 +902,7 @@ function add_new_member(name, branch, year, mail, github, linkedin, image) {
                                   +'<hr style="margin-bottom: 1%;">'
                                   +'<p id="textb">'+ branch +'</p>'
                                   +'<p  id="textb">'+year+'</p>'
-                                  +'<a href="mailto:'+mail+' add target="_blank" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
+                                  +'<a href="mailto:'+mail+'" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
                                   +'<a href='+linkedin+' add target="_blank" class="slo"><i class="fab fa-linkedin-in icon"></i></a>'
                               +'</div>'
                           +'</div>'
@@ -858,7 +918,7 @@ function add_new_member(name, branch, year, mail, github, linkedin, image) {
                                 +'<hr style="margin-bottom: 1%;">'
                                 +'<p id="textb">'+ branch +'</p>'
                                 +'<p  id="textb">'+year+'</p>'
-                                +'<a href="mailto:'+mail+' add target="_blank" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
+                                +'<a href="mailto:'+mail+'" class="slo" style="padding-left: 1.6rem;" ><i class="fas fa-envelope"></i></a>'
                             +'</div>'
                         +'</div>'
                     +'</div>';  
