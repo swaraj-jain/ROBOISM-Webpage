@@ -145,7 +145,7 @@ alumni_list = [
     "branch": "MS in CSE at NYU Tandon University",
     "github": "",
     "image-link": "./img/members/Pragdheesh Rs.jpg",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/pragdheesh-r-s",
     "mail": "",
     "name": "Pragdheesh Rs"
   },
