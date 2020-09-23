@@ -141,6 +141,26 @@ alumni_list = [
   },
   {
     "Timestamp": "7/5/2020 0:15:31",
+    "Year": "-2020",
+    "branch": "MS in CSE at NYU Tandon University",
+    "github": "",
+    "image-link": "./img/members/Pragdheesh Rs.jpg",
+    "linkedin": "",
+    "mail": "",
+    "name": "Pragdheesh Rs"
+  },
+  {
+    "Timestamp": "7/5/2020 0:15:31",
+    "Year": "-2020",
+    "branch": "Cadence Design Systems",
+    "github": "",
+    "image-link": "./img/members/Sarthak Panda.jpg",
+    "linkedin": "https://www.linkedin.com/in/sarthak-panda560/",
+    "mail": "sarthakjine67@gmail.com",
+    "name": "Sarthak Panda"
+  },
+  {
+    "Timestamp": "7/5/2020 0:15:31",
     "Year": "-2019",
     "branch": "R&D FPGA Design Engineer at Tejas Networks",
     "github": "https://github.com/sumanth-kalluri",

@@ -502,12 +502,32 @@ sophomore_list = [
     {
       "Timestamp": "7/4/2020 21:52:17",
       "Year": "Sophomore",
+      "branch": "Electrical Engg",
+      "github": "https://github.com/01Abhinav",
+      "image-link": "./img/members/Abhinav Raj.jpg",
+      "linkedin": "https://www.linkedin.com/in/abhinav-raj-77252918a",
+      "mail": "abhinav.19je0020@ee.iitism.ac.in",
+      "name": "Abhinav Raj"
+    },
+    {
+      "Timestamp": "7/4/2020 21:52:17",
+      "Year": "Sophomore",
       "branch": "Electrical Engg ",
       "github": "https://github.com/aditya-kr-garg",
       "image-link": "./img/members/Aditya Kumar Garg.jpg",
       "linkedin": "http://www.linkedin.com/in/aditya-kumar-garg-9a00b3192",
       "mail": "aditya.garg.rewa9800@gmail.com",
       "name": "Aditya Kumar Garg"
+    },
+    {
+      "Timestamp": "7/4/2020 21:52:17",
+      "Year": "Sophomore",
+      "branch": "Electronics & Communication Engg",
+      "github": "https://github.com/iamadi1435",
+      "image-link": "./img/members/Aditya Ranjan.jpg",
+      "linkedin": "https://www.linkedin.com/in/aditya-ranjan-b41288199",
+      "mail": "adityaranjan798@gmail.com",
+      "name": "Aditya Ranjan"
     },
     {
       "Timestamp": "7/4/2020 20:26:56",
@@ -537,7 +557,7 @@ sophomore_list = [
       "image-link": "./img/members/Akshay Ku Saunta.jpg",
       "linkedin": "https://www.linkedin.com/in/akshay-kumar-288184191",
       "mail": "aksmasih003@gmail.com",
-      "name": "Akshay Ku Saunta"
+      "name": "Akshay Kr Saunta"
     },
     {
       "Timestamp": "7/4/2020 20:24:47",
@@ -547,7 +567,7 @@ sophomore_list = [
       "image-link": "./img/members/Aman Agarwal.jpg",
       "linkedin": "https://www.linkedin.com/in/aman-agrawal-281852192",
       "mail": "amanagrawal5510@gmail.com",
-      "name": "Aman Agarwal"
+      "name": "Aman Agrawal"
     },
     {
       "Timestamp": "7/4/2020 20:24:47",
@@ -572,12 +592,32 @@ sophomore_list = [
     {
       "Timestamp": "7/4/2020 21:33:07",
       "Year": "Sophomore",
+      "branch": "Mechanical Engg",
+      "github": "",
+      "image-link": "./img/members/Animesh Kumar.jpg",
+      "linkedin": "",
+      "mail": "aniki.kumar09@gmail.com",
+      "name": "Animesh Kumar"
+    },
+    {
+      "Timestamp": "7/4/2020 21:33:07",
+      "Year": "Sophomore",
       "branch": "Electrical Engg",
       "github": "",
       "image-link": "./img/members/Anshul Choudhary.jpg",
       "linkedin": "",
       "mail": "ansh.vach@gmail.com",
       "name": "Anshul Choudhary"
+    },
+    {
+      "Timestamp": "7/4/2020 21:33:07",
+      "Year": "Sophomore",
+      "branch": "Mining Engg",
+      "github": "",
+      "image-link": "./img/members/Anshuman Thakur.jpg",
+      "linkedin": "",
+      "mail": "anshumanthakur01@gmail.com",
+      "name": "Anshuman Thakur"
     },
     {
       "Timestamp": "7/4/2020 21:33:07",
@@ -772,7 +812,7 @@ sophomore_list = [
     {
       "Timestamp": "7/4/2020 20:03:30",
       "Year": "Sophomore",
-      "branch": "Mining Engg",
+      "branch": "Petroleum Engg",
       "github": "https://github.com/shadan-arif",
       "image-link": "./img/members/Shadan Arif.jpg",
       "linkedin": "https://www.linkedin.com/in/shadan-arif-24b1791b2/",
@@ -838,6 +878,26 @@ sophomore_list = [
       "linkedin": "https://www.linkedin.com/in/vatsal-ojha-6b67791b0",
       "mail": "vatsalojha1@gmail.com",
       "name": "Vatsal Ojha"
+    },
+    {
+      "Timestamp": "7/4/2020 22:11:51",
+      "Year": "Sophomore",
+      "branch": "Mathematics and Computing",
+      "github": "https://github.com/geekyvedic",
+      "image-link": "./img/members/Vedic.M.jpg",
+      "linkedin": "https://www.linkedin.com/in/vedic-muddisetty-392126197/",
+      "mail": "vedic603@gmail.com",
+      "name": "Vedic.M"
+    },
+    {
+      "Timestamp": "7/4/2020 22:17:37",
+      "Year": "Sophomore",
+      "branch": "Petroleum Engg",
+      "github": "",
+      "image-link": "./img/members/Yash Agrawal.jpg",
+      "linkedin": "https://www.linkedin.com/in/yash-agrawal-a150991a5",
+      "mail": "yashagrawal01meh@gmail.com",
+      "name": "Yash Agrawal"
     },
     {
       "Timestamp": "7/4/2020 22:17:37",
